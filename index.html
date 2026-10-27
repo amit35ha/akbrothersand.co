@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | A. K. Brothers & Co. — Enterprise Portal & Gateway</title>
+  <meta name="description" content="Official welcome and gateway portal for A. K. Brothers & Co., licensed electrical contractor and general order supplier in Kolkata, West Bengal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Electric Circuit & Interactive Power Grid Canvas -->
+  <canvas id="warp-canvas"></canvas>
+
+  <!-- Ambient Radiant Glow Lights -->
+  <div class="glow-orb orb-amber" aria-hidden="true"></div>
+  <div class="glow-orb orb-blue" aria-hidden="true"></div>
+  <div class="glow-orb orb-cyan" aria-hidden="true"></div>
+
+  <!-- Industrial Mesh Pattern Overlay -->
+  <div class="circuit-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Top Corporate Navigation Bar -->
+  <header class="top-nav">
+    <div class="nav-brand">
+      <div class="brand-logo-frame">
+        <img src="logo.png" alt="A. K. Brothers & Co. Official Logo" class="brand-logo-img">
+      </div>
+      <div class="brand-headings">
+        <span class="brand-title">A. K. BROTHERS & CO.</span>
+        <span class="brand-subtitle">Govt. Licensed Electrical Contractor & General Order Supplier</span>
+      </div>
+    </div>    <div class="nav-actions">
+      <div class="statutory-pill">
+        <span class="pill-dot"></span>
+        <span class="pill-label">GSTIN:</span>
+        <span class="pill-val">19JBGPK7323L1Z2</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Welcome & About Company Section -->
+  <main class="welcome-container" id="welcome-wrapper">
+    <div class="company-card" id="main-card">
+      <div class="card-ambient-border"></div>
+
+      <!-- Verified Badge -->
+      <div class="card-top-row">
+        <div class="status-badge">
+          <span class="live-pulse"></span>
+          <span class="badge-text">OFFICIAL ENTERPRISE GATEWAY</span>
+        </div>
+        <div class="location-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>Kolkata, West Bengal</span>
+        </div>
+      </div>
+
+      <!-- Company Hero Title -->
+      <div class="hero-header">
+        <span class="welcome-prefix">Welcome to</span>
+        <h1 class="company-hero-title">A. K. BROTHERS &amp; CO.</h1>
+        <p class="company-tagline">"Electrical Solutions. Built on Trust."</p>
+      </div>
+
+      <!-- About The Company Briefing -->
+      <div class="about-company-snippet">
+        <p>
+          Specializing in commercial &amp; industrial <strong>HT/LT power distribution</strong>, <strong>11kV substations</strong>, precision architectural lighting, and certified BIS-grade electrical supplies. You are connecting to our secure enterprise management server &amp; client gateway.
+        </p>
+      </div>
+
+      <!-- 4 Core Capabilities Grid -->
+      <div class="capabilities-grid">
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <div class="cap-content">
+            <h4>HT / LT Distribution</h4>
+            <span>11kV Substations &amp; Panels</span>
+          </div>
+        </div>
+
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div class="cap-content">
+            <h4>Govt. Licensed</h4>
+            <span>IS Code &amp; CEA Safety Standards</span>
+          </div>
+        </div>
+
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <div class="cap-content">
+            <h4>General Supplies</h4>
+            <span>Polycab, L&amp;T, Schneider, Philips</span>
+          </div>
+        </div>
+
+        <div class="cap-card">
+          <div class="cap-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <div class="cap-content">
+            <h4>Central Server Portal</h4>
+            <span>Billing, ERP &amp; Site Logs</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Target Node Banner (DNS / IP) -->
+      <div class="destination-display-box" id="target-node-panel">
+        <div class="dest-meta">
+          <span class="dest-label">GATEWAY ROUTE / HOST NODE</span>
+          <div class="dest-uri">
+            <span class="dest-badge">DNS / IP</span>
+            <span class="dest-ip-text" id="display-target-url">192.168.1.1</span>
+          </div>
+        </div>
+        <button id="edit-destination-btn" class="edit-dest-btn" title="Click to customize destination IP or DNS">
+          <span>Change Node</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+        </button>
+      </div>
+
+      <!-- Main Continue Button & Auto 10-Second Timer -->
+      <div class="action-dock">
+        <!-- 10-Second Automatic Countdown Indicator -->
+        <div class="auto-timer-container" id="auto-timer-container">
+          <div class="auto-timer-info">
+            <div class="timer-badge">
+              <svg class="timer-clock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>Auto-redirecting in: <strong id="countdown-seconds">10s</strong></span>
+            </div>
+            <button type="button" id="pause-timer-btn" class="pause-timer-btn" title="Pause or Resume automatic countdown">
+              <span id="pause-btn-text">Pause</span>
+            </button>
+          </div>
+          <div class="timer-progress-track">
+            <div class="timer-progress-fill" id="timer-progress-fill"></div>
+          </div>
+        </div>
+
+        <button id="continue-btn" class="power-continue-btn" aria-label="Continue to Company Server / DNS IP">
+          <span class="btn-electrical-spark"></span>
+          <span class="btn-ripple-layer" id="ripple-box"></span>
+          <span class="btn-inner">
+            <span class="btn-bolt-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </span>
+            <span class="btn-caption">CONTINUE TO COMPANY PORTAL</span>
+            <span class="btn-arrow-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </span>
+          </span>
+        </button>
+        <span class="redirect-notice">Auto-redirects in 10s &bull; Click to continue immediately</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Power Surge / High-Voltage Transit Overlay (Reveals on Continue Click) -->
+  <div class="warp-transition-overlay" id="warp-overlay" aria-hidden="true">
+    <div class="circuit-rings-wrapper">
+      <div class="circuit-ring c-ring-1"></div>
+      <div class="circuit-ring c-ring-2"></div>
+      <div class="circuit-ring c-ring-3"></div>
+      <div class="circuit-plasma-core"></div>
+    </div>
+
+    <div class="warp-hud-content">
+      <div class="hud-scanner">
+        <div class="scanner-circle">
+          <svg viewBox="0 0 100 100" class="gauge-svg">
+            <circle class="gauge-bg" cx="50" cy="50" r="44"></circle>
+            <circle class="gauge-bar" id="warp-progress-circle" cx="50" cy="50" r="44"></circle>
+          </svg>
+          <div class="gauge-value" id="warp-percentage">0%</div>
+        </div>
+      </div>
+
+      <div class="hud-brand-tag">A. K. BROTHERS &amp; CO. • ENTERPRISE GATEWAY</div>
+      <h2 class="hud-title" id="hud-title">ENERGIZING HIGH-SPEED UPLINK</h2>
+      <p class="hud-status" id="hud-status-text">Synchronizing data stream with host server...</p>
+
+      <div class="telemetry-terminal">
+        <div class="telemetry-line active" id="tele-line-1"><span class="tick">[OK]</span> A. K. Brothers &amp; Co. Gateway Handshake Verified</div>
+        <div class="telemetry-line" id="tele-line-2"><span class="tick">[..]</span> Routing packets to destination host node...</div>
+        <div class="telemetry-line" id="tele-line-3"><span class="tick">[..]</span> Authorizing enterprise session token</div>
+        <div class="telemetry-line" id="tele-line-4"><span class="tick">[..]</span> Voltage stabilized &bull; Initiating client redirect</div>
+      </div>
+
+      <div class="hud-actions">
+        <button id="cancel-warp-btn" class="cancel-warp-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          Cancel Redirection
+        </button>
+        <a id="direct-redirect-link" class="direct-link" href="#" target="_self">Direct Link (Instant Redirection) &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings / Destination Configuration Modal -->
+  <div class="modal-backdrop" id="config-modal" aria-hidden="true">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-icon-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+              <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+              <line x1="6" y1="6" x2="6.01" y2="6"></line>
+              <line x1="6" y1="18" x2="6.01" y2="18"></line>
+            </svg>
+          </div>
+          <div>
+            <h3>Configure Target Host / DNS IP</h3>
+            <span class="modal-sub">Set your company server, router, or local gateway</span>
+          </div>
+        </div>
+        <button id="close-modal-btn" class="modal-close" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-instruction">
+          Enter your target DNS domain or IP address below (e.g. your billing server, internal router <code>192.168.1.1</code>, or DDNS host <code>akbrothers.ddns.net</code>).
+        </p>
+
+        <div class="form-group">
+          <label for="custom-ip-input">Target DNS / IP Address</label>
+          <div class="input-wrapper">
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <input type="text" id="custom-ip-input" placeholder="e.g. 192.168.1.1 or server.akbrothers.com" spellcheck="false" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="quick-presets">
+          <span class="preset-label">Quick Presets:</span>
+          <button type="button" class="preset-chip" data-val="192.168.1.1">Router (192.168.1.1)</button>
+          <button type="button" class="preset-chip" data-val="127.0.0.1:8080">Billing (127.0.0.1:8080)</button>
+          <button type="button" class="preset-chip" data-val="1.1.1.1">Cloudflare (1.1.1.1)</button>
+          <button type="button" class="preset-chip" data-val="8.8.8.8">Google DNS (8.8.8.8)</button>
+        </div>
+
+        <div class="form-group">
+          <label for="protocol-select">Connection Protocol</label>
+          <select id="protocol-select" class="protocol-select">
+            <option value="http://">HTTP (http:// - standard for local router / billing server)</option>
+            <option value="https://">HTTPS (https:// - secure SSL domains)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="modal-cancel-btn" class="btn-secondary">Cancel</button>
+        <button id="modal-save-btn" class="btn-primary">Save Destination</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Redirection Flash Whiteout Effect -->
+  <div class="hyperspace-flash" id="hyperspace-flash" aria-hidden="true"></div>
+
+  <!-- Corporate Statutory Footer -->
+  <footer class="corporate-footer">
+    <div class="footer-inner">
+      <span>&copy; A. K. Brothers &amp; Co. &bull; Registered Office: 4/6 Lock Gate Road, Kolkata 700002, West Bengal</span>
+      <span class="footer-sep">&bull;</span>
+      <span>GSTIN: 19JBGPK7323L1Z2 &bull; Central Electricity Authority Compliant</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
